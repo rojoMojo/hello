@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyFirstRest {
     @GetMapping("/status/check")
     public String status() {
-        return "working";
+        return "workin";
     }
 }
