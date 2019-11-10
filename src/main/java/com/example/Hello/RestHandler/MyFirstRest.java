@@ -18,6 +18,6 @@ public class MyFirstRest {
 
     @PostMapping("jiaki")
     public String jiaki(@RequestBody String body) {
-      return "You said "+body;
+      return "You said "+body+".";
     }
 }
